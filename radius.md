@@ -33,13 +33,20 @@ We obtained approval from the Research Ethics Committee of the São José Munici
 
 ### Participants
 
-orthopedic residents (R2 e R3)
- Images
- 
+A total of <!-- number --> orthopedic residents participated in this study, <!-- number --> were second-year, and <!-- number --> were third-year residents. Their average age was <!-- number -->, <!-- number --> being males.
+
+
 ### Image selection:
 
-20 images, with fracture pattern variation.
- Procedures
+We selected 20 images containing fractures with a wide pattern variation chosen to cover the full spectrum of the AO classification for distal radius fractures
+
+
+### AO classification
+
+<!-- Ana, please add a general description with links to the full classification -->
+
+
+### Study logistics and procedures
 
 Present a collection of 20 images. Each participant independently classifies the images according to the AO Classification. Afterwards, the answers are collected.
 During the 30 days interval, the "expert" will be interviewed to explain how he thinks while classifies a fracture image. The AO Classification figures of different patterns of distal radius fractures will be shown to him. The interview will be recorded to allow represent their cognitive schemata. 
@@ -50,19 +57,19 @@ During the 30 days interval, the "expert" will be interviewed to explain how he 
 
 
 ### Outcome measurement
-inter-observer reliability
-intra-observer reliability
-degree of improvement in inter-observer reliability after training
- 
- 
 
-
-   
 ### Data analysis
 
 dados da matriz será a variabilidade do das fingerprints dos expertise
 Avaliar as importancia ou o grau das relação em uma VAS - Visual Analogue Scale
 Results
+inter-observer reliability
+intra-observer reliability
+degree of improvement in inter-observer reliability after training
+
+
+## Results
+
 
 ## Discussion
 
