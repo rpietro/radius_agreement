@@ -14,10 +14,10 @@ Ricardo Pietrobon
 
 ## Introduction
 
-Although the AO classification is considered one of the main pillars behind the education of orthopedic residents, observer agreement has been reported to be poor in a number of previous publications. <!-- Ana, please add refs --> Although well established, these findings are disconcerting as classifications are supposed to guide treatment indications, and a substantion lack of observer agreement might mean that a large percentage treatment variability might be explained by a simple lack of understanding of the fracture radiological appearance, biomechanics and, as a consequence, treatment. Despite our knowledge of the cognition behind medical diagnosis having substantially improved over the past couple decades, however, to our knowledge these fields have remained largely without an intersection.
+Although the AO classification is considered one of the main pillars behind the education of orthopedic residents, observer agreement has been reported to be poor in a number of previous publications. (@andersen1996classification; @belloti2008distal; @kural2010evaluation; @kucuk2013reliability). Although well established, these findings are disconcerting as classifications are supposed to guide treatment indications, and a substantion lack of observer agreement might mean that a large percentage treatment variability might be explained by a simple lack of understanding of the fracture radiological appearance, biomechanics and, as a consequence, treatment. Despite our knowledge of the cognition behind medical diagnosis having substantially improved over the past couple decades, however, to our knowledge these fields have remained largely without an intersection.
 
-* lit review on radius AO scale and lack of agreement <!-- ana, please add ref -->
-* lit review on cognitive schema and medical diagnosis <!-- ana, please add ref -->
+* lit review on radius AO scale and lack of agreement (@andersen1996classification; @belloti2008distal; @kural2010evaluation; @kucuk2013reliability) <!-- ana, please add ref -->
+* lit review on cognitive schema and medical diagnosis (@van2010cognitive; @ruiter2012achieve) <!-- ana, please add ref -->
 
 The objective of this study was therefore to investigate the intraobserver and interobserver reliability of AO classification system for distal radius fractures with and without the aid of a cognitive schemata obtained through a cognitive task analysis.
 
