@@ -45,6 +45,10 @@ Two second-year and one fourth-year residents that were not enrolled directly wi
 
 <!-- Ana, please add a general description with links to the full classification -->
 
+A classificação AO foi criada em 1986 e revisada em 1990. Ela considera a gravidade da lesão óssea e serve como base para o tratamento e avaliação dos resultados. Existem três tipos básicos: extra-articular, articular parcial e articular completa. Os três grupos são organizados em ordem crescente de gravidade com relação à complexidade morfológica, dificuldade de tratamento e prognóstico. O grupo A (extra-articular) não envolve a articulação rádio-cárpica, o grupo B (fraturas articulares parciais) envolve a articulação rádio-cárpica, mas uma porção da superfície articular permanece em continuidade com a diáfise e o grupo C (articular completa) apresenta separação completa da articulação com a diáfise. Estes três principais tipos são subdivididos em três grupos, e cada grupo, em três subgrupos. Dessa forma, existem 27 diferentes padrões de fraturas que dependem da estabilidade, impacto, cominuição, redutibilidade e localização dos fragmentos (@graff1994fracture). 
+
+link to the full classification: https://www2.aofoundation.org/wps/portal/surgery?showPage=diagnosis&bone=Radius&segment=Distal
+
 
 ### Study logistics and procedures
 
