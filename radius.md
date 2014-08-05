@@ -48,11 +48,14 @@ We selected 20 images containing fractures with a wide pattern variation chosen 
 
 ### Study logistics and procedures
 
-Present a collection of 20 images. Each participant independently classifies the images according to the AO Classification. Afterwards, the answers are collected.
-During the 30 days interval, the "expert" will be interviewed to explain how he thinks while classifies a fracture image. The AO Classification figures of different patterns of distal radius fractures will be shown to him. The interview will be recorded to allow represent their cognitive schemata. 
-3a. Repeat the presentation of the same 20 images in 30 days.
-3b. Immediate training (exercises)
-3c. Repeat the presentation of the same 20 images again, giving the residents the opportunity to change their classification 
+<!--Ricardo, esse estudo sofreu uma modificação, pois na primeira etapa o agreement foi nulo. Abaixo fiz a descrição dos procedimentos realizados.-->
+
+Inicialmente, cada residente independentemente classificou as 20 imagens de acordo com a Classificação AO. No dia do teste, cada residente recebeu o arquivo das imagens no seu notebook e assim que eles finalizavam a classificação de todas as imagens, esse arquivo foi apagado. As respostas eram anotadas em folhas impressas com a sequência das imagens. E em seguida as respostas foram transferidas a uma planilha do Excel. 
+Após 30 dias, cada residente recebeu um novo arquivo com as 20 imagens em uma ordem alterada. As respostas eram anotadas em folhas impressas e em seguida as respostas transferidas a planilha do Excel. Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores. 
+
+Após esta primeira etapa inserimos 4 semanas de intervenção, ou seja, os residentes completavam online uma média de 15 exercícios por semana, relacionados ao diagnóstico, biomecânica e tratamento de fraturas de rádio distal na Plataforma Edx. Esses exercícios foram criados à partir de um esquema cognitivo obtido de um expert em ortopedia, especialista em mão. Passado essas 4 semanas, os residentes novamente reclassificaram as 20 imagens que foram inseridas na Plataforma Edx.
+Exemplos de exercícios:
+
 
 
 
