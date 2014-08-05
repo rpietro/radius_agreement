@@ -36,9 +36,9 @@ We obtained approval from the Research Ethics Committee of the São José Munici
 A total of 14 orthopedic residents participated in this study, 6 were first-year, 4 were second-year, and 4 were third-year residents. Their average age was <!-- number -->, <!-- number --> being males.<!-- Ricardo, precisa mesmo dessas informações. Não sei qual é a idade deles. -->
 
 
-### Image selection:
+### Image selection
 
-We selected 20 images containing fractures with a wide pattern variation chosen to cover the full spectrum of the AO classification for distal radius fractures
+Two second-year and one fourth-year residents that were not enrolled directly with the study and an orthopedic surgeon, specialist in hand selected 20 images containing fractures with a wide pattern variation chosen to cover the full spectrum of the AO classification for distal radius fractures. As imagens eram na incidência ântero-posterior e perfil. As imagens foram obtidas de arquivos dos Hospital São Municipal São José (Joinville – SC). Qualquer sinal de identicação de pacientes foi removido. Imagens radiográficas mal posicionadas que poderiam gerar problemas na interpretação foram excluídas. Imagens de baixa qualidade ou com artefatos ou outros defeitos técnicos também foram excluídas.
 
 
 ### AO classification
