@@ -58,7 +58,7 @@ Inicialmente, cada residente independentemente classificou as 20 imagens de acor
 Após 30 dias, cada residente recebeu um novo arquivo com as 20 imagens em uma ordem alterada. As respostas eram anotadas em folhas impressas e em seguida as respostas transferidas a planilha do Excel. Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores. 
 
 Após esta primeira etapa inserimos 4 semanas de intervenção, ou seja, os residentes completavam online uma média de 15 exercícios por semana, relacionados ao diagnóstico, biomecânica e tratamento de fraturas de rádio distal na Plataforma Edx. Esses exercícios foram criados à partir de um esquema cognitivo obtido de um expert em ortopedia, especialista em mão. Passado essas 4 semanas, os residentes novamente reclassificaram as 20 imagens que foram inseridas na Plataforma Edx.
-Exemplos de exercícios:
+
 
 
 
