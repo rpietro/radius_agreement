@@ -113,24 +113,7 @@ degree of improvement in inter-observer reliability after training
 http://goo.gl/NwMNN
 http://goo.gl/17QP
 
-Uniqueness and summary of main findings
 
 
-Discussion of the each of the main findings
+## References
 
-Authors agreeing and discussion on mechanisms underlying the finding
-Authors disagreeing with findings and reasons for disagreement
-
-
-Study limitations
-
-
-
-Conclusions
-
-First, provide readers with a description of future studies that should be conducted to further expand the field.
-Point readers in relation to how the information presented in this manuscript might make a difference in practice.  In other words, how can the original information you have just generated be transformed into knowledge
-
-
-# References
-(autores, título, revista, ano, mês, número, volume, página)
