@@ -34,7 +34,7 @@ We obtained approval from the Research Ethics Committee of the São José Munici
 
 ### Participants
 
-A total of 14 orthopedic residents participated in this study, 6 were first-year, 4 were second-year, and 4 were third-year residents. Their average age was <!-- number -->, <!-- number --> being males.<!-- Ricardo, precisa mesmo dessas informações. Não sei qual é a idade deles. --> <!-- sim, precisamos -->
+A total of 14 orthopedic residents participated in this study, 6 were first-year, 4 were second-year, and 4 were third-year residents. Their average age was <!-- number -->, 13 being males.<!-- Ricardo, precisa mesmo dessas informações. Não sei qual é a idade deles. --> <!-- sim, precisamos -->
 
 
 ### Image selection
@@ -54,7 +54,7 @@ It divides fractures into three main categories: extra-articular, partial articu
 
 ### Situated schemata extraction using Cognitive Task Analysis
 
-For the purposes of our paper, we define a situated schema as the collection of concepts and situations (e.g., narratives) that an expert hand surgeon relates to each classification category. In order to extract the situated schema from our expert hand surgeon (<!-- add initials -->), we used the following sequence. 
+For the purposes of our paper, we define a situated schema as the collection of concepts and situations (e.g., narratives) that an expert hand surgeon relates to each classification category. In order to extract the situated schema from our expert hand surgeon (HA), we used the following sequence. 
 
 First, the AO classification was presented to the hand surgery expert in an electronic format combining text and graphics for each classification category. Second, we asked the surgeon to "think aloud" about what they thought when finding a case in their daily practice. After an initial description, we specifically asked the expert to discuss any diagnostic, biomechanical or related therapeutic decision if it had not yet been previously mentioned. We also encouraged the expert to provide any narratives that might occur to him while thinking aloud about each classification category. The entire process was recorded in a video.
 
