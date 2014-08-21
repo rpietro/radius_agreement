@@ -34,7 +34,7 @@ We obtained approval from the Research Ethics Committee of the São José Munici
 
 ### Participants
 
-A total of 14 orthopedic residents participated in this study, 6 were first-year, 4 were second-year, and 4 were third-year residents. Their average age was <!-- number -->, 13 being males.<!-- Ricardo, precisa mesmo dessas informações. Não sei qual é a idade deles. --> <!-- sim, precisamos -->
+A total of 14 orthopedic residents participated in this study, 6 were first-year, 4 were second-year, and 4 were third-year residents. Their average age was 29, 13 being males.
 
 
 ### Image selection
