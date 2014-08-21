@@ -45,10 +45,8 @@ Two second-year and one fourth-year residents that were not enrolled directly wi
 ### AO classification
 
 
-The AO classification is based on the degree of bone fracture, serving as the basis for both treatment indication and outcome assessment. <!-- ref -->
-It divides fractures into three main categories: extra-articular, partial articular and complete articular. These three groups are organized in progressive order of severity in relation to their anatomical severity, treatment complexity and prognosis. Fractures from Group A (extra-articular) do not affect the radial-carpal join, while Group B (partial articular fracture) does affect the radio-carpal joint leaving a section of the articular surface remaining connected to the diaphysis. Fractures in Group C (complete articular fracture) constitutes a complete separation between the wrist joint and the dyaphysis. These three main groups are then subdivided into three subgroup, therefore constituting a total of 27 different types of fractures. These fractures vary in relation to how stable they are, their degree of comminution, how reduceable they are and the localization of their fragments (@graff1994fracture), https://www2.aofoundation.org/wps/portal/surgery?showPage=diagnosis&bone=Radius&segment=Distal )
-
-<!-- Ana, please check each technical term as I am not sure about many of them -->
+The AO classification is based on the degree of bone fracture, serving as the basis for both treatment indication and outcome assessment (@belloti2008distal). 
+It divides fractures into three main categories: extra-articular, partial articular and complete articular. These three groups are organized in progressive order of severity in relation to their anatomical severity, treatment complexity and prognosis. Fractures from Group A (extra-articular) do not affect the radiocarpal joint surface at all, while Group B (partial articular fracture) does affect the radiocarpal joint leaving a section of the articular surface remaining connected to the diaphysis. Fractures in Group C (complete articular fracture) constitutes a complete separation between the involved articular surface and the diaphysis. These three main groups are then subdivided into three subgroup, therefore constituting a total of 27 different types of fractures. These fractures vary in relation to how stable they are, their degree of comminution, how reduceable they are and the localization of their fragments (Müeller, 1987). https://www2.aofoundation.org/wps/portal/surgery?showPage=diagnosis&bone=Radius&segment=Distal )
 
 
 
