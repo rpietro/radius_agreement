@@ -29,7 +29,7 @@ The objective of this study was therefore to investigate the intra and interobse
 
 ### Institutional Review Board
 
-We obtained approval from the Research Ethics Committee of the São José Municipal Hospital prior to the initiation of this project (protocol number 1240.567) All participants were provided with informed consent prior to enrollment in the study.
+We obtained approval from the Research Ethics Committee of the São José Municipal Hospital prior to the initiation of this project (protocol number 1240.567). All participants were provided with informed consent prior to enrollment in the study.
 
 
 ### Participants
