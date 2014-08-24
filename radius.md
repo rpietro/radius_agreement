@@ -16,10 +16,8 @@ Ricardo Pietrobon, MD, PhD
 
 Although the AO classification is considered one of the main pillars behind the education of orthopedic residents, observer agreement has been reported to be poor in a number of previous publications (@andersen1996classification; @belloti2008distal; @kural2010evaluation; @kucuk2013reliability). Although well established, these findings are disconcerting as classifications are supposed to guide treatment indications, and a substantion lack of observer agreement might mean that a large percentage treatment variability might be explained by a simple lack of understanding of the fracture radiological appearance, biomechanics and, as a consequence, treatment. Despite our knowledge of the cognition behind medical diagnosis having substantially improved over the past couple decades, however, to our knowledge these fields have remained largely without an intersection.
 
-<!-- Ana, can you write this section out? -->
-
-* lit review on radius AO scale and lack of agreement (@andersen1996classification; @belloti2008distal; @kural2010evaluation; @kucuk2013reliability) 
-* lit review on cognitive schema and medical diagnosis (@van2010cognitive; @ruiter2012achieve) 
+The accurate usage of a scale can be evaluated determining how reproducible are the answers from different observers at different times (@garbuz2002classification). According to this criteria, although AO scale is  widely accepted, several studies have found low agreement rates. (@belloti2008distal; @kural2010evaluation; @kucuk2013reliability). These low agreement rates may be reflex of the use of wrong cognitive schema or wrong heuristics. 
+Previous studies have found that physicians tend to use heuristics instead of evidence based instruments such as scales (@ferreira2010clinical) in their daily practice. Since medical education is based on several schemas where knowledge is built for future use (@regehr1996issues), learning a coherent cognitive schema that avoids cognitive overload may facilitate the understanding of scales (@ruiter2012achieve; @ferreira2010clinical), thus enhancing its agreement rates and consequently its accurate daily usage. <!-- Ricardo, please check it out -->
 
 The objective of this study was therefore to investigate the intra and interobserver reliability of the AO classification system for distal radius fractures with and without the aid of a cognitive schemata obtained through a cognitive task analysis.
 
@@ -29,7 +27,7 @@ The objective of this study was therefore to investigate the intra and interobse
 
 ### Institutional Review Board
 
-We obtained approval from the Research Ethics Committee of the São José Municipal Hospital prior to the initiation of this project (protocol number 1240.567) All participants were provided with informed consent prior to enrollment in the study.
+We obtained approval from the Research Ethics Committee of the São José Municipal Hospital prior to the initiation of this project (protocol number 1240.567). All participants were provided with informed consent prior to enrollment in the study.
 
 
 ### Participants
@@ -45,10 +43,8 @@ Two second-year and one fourth-year residents that were not enrolled directly wi
 ### AO classification
 
 
-The AO classification is based on the degree of bone fracture, serving as the basis for both treatment indication and outcome assessment. <!-- ref -->
-It divides fractures into three main categories: extra-articular, partial articular and complete articular. These three groups are organized in progressive order of severity in relation to their anatomical severity, treatment complexity and prognosis. Fractures from Group A (extra-articular) do not affect the radial-carpal join, while Group B (partial articular fracture) does affect the radio-carpal joint leaving a section of the articular surface remaining connected to the diaphysis. Fractures in Group C (complete articular fracture) constitutes a complete separation between the wrist joint and the dyaphysis. These three main groups are then subdivided into three subgroup, therefore constituting a total of 27 different types of fractures. These fractures vary in relation to how stable they are, their degree of comminution, how reduceable they are and the localization of their fragments (@graff1994fracture), https://www2.aofoundation.org/wps/portal/surgery?showPage=diagnosis&bone=Radius&segment=Distal )
-
-<!-- Ana, please check each technical term as I am not sure about many of them -->
+The AO classification is based on the degree of bone fracture, serving as the basis for both treatment indication and outcome assessment (@belloti2008distal). 
+It divides fractures into three main categories: extra-articular, partial articular and complete articular. These three groups are organized in progressive order of severity in relation to their anatomical severity, treatment complexity and prognosis. Fractures from Group A (extra-articular) do not affect the radiocarpal joint surface at all, while Group B (partial articular fracture) does affect the radiocarpal joint leaving a section of the articular surface remaining connected to the diaphysis. Fractures in Group C (complete articular fracture) constitutes a complete separation between the involved articular surface and the diaphysis. These three main groups are then subdivided into three subgroup, therefore constituting a total of 27 different types of fractures. These fractures vary in relation to how stable they are, their degree of comminution, how reduceable they are and the localization of their fragments (Müeller, 1987). https://www2.aofoundation.org/wps/portal/surgery?showPage=diagnosis&bone=Radius&segment=Distal )
 
 
 
