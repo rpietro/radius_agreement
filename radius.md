@@ -17,6 +17,7 @@ Ricardo Pietrobon, MD, PhD
 Although the AO classification is considered one of the main pillars behind the education of orthopedic residents, observer agreement has been reported to be poor in a number of previous publications (@andersen1996classification; @belloti2008distal; @kural2010evaluation; @kucuk2013reliability). Although well established, these findings are disconcerting as classifications are supposed to guide treatment indications, and a substantion lack of observer agreement might mean that a large percentage treatment variability might be explained by a simple lack of understanding of the fracture radiological appearance, biomechanics and, as a consequence, treatment. Despite our knowledge of the cognition behind medical diagnosis having substantially improved over the past couple decades, however, to our knowledge these fields have remained largely without an intersection.
 
 The accurate usage of a scale can be evaluated determining how reproducible are the answers from different observers at different times (@garbuz2002classification). According to this criteria, although AO scale is  widely accepted, several studies have found low agreement rates. (@belloti2008distal; @kural2010evaluation; @kucuk2013reliability). These low agreement rates may be reflex of the use of wrong cognitive schema or wrong heuristics. 
+
 Previous studies have found that physicians tend to use heuristics instead of evidence based instruments such as scales (@ferreira2010clinical) in their daily practice. Since medical education is based on several schemas where knowledge is built for future use (@regehr1996issues), learning a coherent cognitive schema that avoids cognitive overload may facilitate the understanding of scales (@ruiter2012achieve; @ferreira2010clinical), thus enhancing its agreement rates and consequently its accurate daily usage. <!-- Ricardo, please check it out -->
 
 The objective of this study was therefore to investigate the intra and interobserver reliability of the AO classification system for distal radius fractures with and without the aid of a cognitive schemata obtained through a cognitive task analysis.
@@ -43,8 +44,9 @@ Two second-year and one fourth-year residents that were not enrolled directly wi
 ### AO classification
 
 
-The AO classification is based on the degree of bone fracture, serving as the basis for both treatment indication and outcome assessment (@belloti2008distal). 
-It divides fractures into three main categories: extra-articular, partial articular and complete articular. These three groups are organized in progressive order of severity in relation to their anatomical severity, treatment complexity and prognosis. Fractures from Group A (extra-articular) do not affect the radiocarpal joint surface at all, while Group B (partial articular fracture) does affect the radiocarpal joint leaving a section of the articular surface remaining connected to the diaphysis. Fractures in Group C (complete articular fracture) constitutes a complete separation between the involved articular surface and the diaphysis. These three main groups are then subdivided into three subgroup, therefore constituting a total of 27 different types of fractures. These fractures vary in relation to how stable they are, their degree of comminution, how reduceable they are and the localization of their fragments (Müeller, 1987). https://www2.aofoundation.org/wps/portal/surgery?showPage=diagnosis&bone=Radius&segment=Distal )
+The AO classification is based on the degree of bone fracture, serving as the basis for both treatment indication and outcome assessment (@belloti2008distal). It divides fractures into three main categories: extra-articular, partial articular and complete articular. These three groups are organized in progressive order of severity in relation to their anatomical severity, treatment complexity and prognosis. Fractures from Group A (extra-articular) do not affect the radiocarpal joint surface at all, while Group B (partial articular fracture) does affect the radiocarpal joint leaving a section of the articular surface remaining connected to the diaphysis. Fractures in Group C (complete articular fracture) constitutes a complete separation between the involved articular surface and the diaphysis. 
+
+These three main groups are then subdivided into three subgroup, therefore constituting a total of 27 different types of fractures. These fractures vary in relation to how stable they are, their degree of comminution, how reduceable they are and the localization of their fragments (Müeller, 1987). https://www2.aofoundation.org/wps/portal/surgery?showPage=diagnosis&bone=Radius&segment=Distal )
 
 
 
@@ -69,13 +71,19 @@ At baseline, all participants independently classified all 20 images according t
 
 After 30 days, each study participant received a new directory with the same 20 images, but in a different order. All other procedures were executed exactly as described for the baseline session.
 
-Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores. 
+<!-- 
+not sure we are going to describe this as it will get confusing
+
+After the classification was finalized, Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores.  -->
 
 
 
 #### Intervention
 
-Após esta primeira etapa inserimos 4 semanas de intervenção, ou seja, os residentes completavam online uma média de 15 exercícios por semana, relacionados ao diagnóstico, biomecânica e tratamento de fraturas de rádio distal na Plataforma Edx. Esses exercícios foram criados à partir de um esquema cognitivo obtido de um expert em ortopedia, especialista em mão. 
+The educational intervention was constituted by weekly sessions where participants completeted 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. The full spectrum described by the AO classification was covered.  This intervention lasted 4 weeks. 
+
+<!-- Ana, here we need more detail about the intervention in terms of how it was organized on edx, and how exactly it was derived from the cognitive schema. would be good to have at least one figure -->
+
 
 
 #### Post-intervention, sixty-day evaluation
@@ -100,21 +108,39 @@ All data were extracted directly from [MySQL](http://www.mysql.com/) and [MongoD
 
 ### Computerized Adaptive Test
 
+<!-- this section won't go into the SBOT -->
+
 Based on the values obtained for the interobserver agreement for each individual fracture, we developed a free, publicly available online Computerized Adaptive Test. In this system, learners will initially be asked to rate an image with average observer agreement. Depending on their response agreeing or not with the majority of responders, they are taken to, respectively, a subsequent image with a lower or greater degree of interobserver ("harder" or "easier" images). 
 
 ## Results
 
 
 
-inter-observer reliability
-intra-observer reliability
-degree of improvement in inter-observer reliability after training
-CAT
+### Inter-observer reliability
 
-## Results
+
+### Intra-observer reliability
+
+
+### Degree of improvement in inter-observer reliability after training
+
+
+### Computerized Adaptive Test
+
 
 
 ## Discussion
+
+To the best of our knowledge, this is the first study creating a computerized adaptive test for the AO radius fracture classification. We found that 
+
+<!-- inter-observer reliability
+intra-observer reliability
+degree of improvement in inter-observer reliability after training
+CAT
+ -->
+
+Despite being the first to report a computerized adaptive test for the AO radius fracture classification, our study has limitations. First, our analysis was restricted to a group of residents, and different groups might present a variation in observer agreement serving as the basis for the Computerized Adaptive Test. Second, while selecting images for the observer agreement study, we chose to select a wide spectrum of fractures rather than representing the actual prevalence of these fractures in an average practice. 
+
 
 
 
