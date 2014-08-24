@@ -1,4 +1,4 @@
-# Inter and intra-observer agreement of distal radius fractures before and after exposure to the AO classification with or without a situated schemata representation: A reproducible research study
+# Quasi-experimental, reproducible intervention to improve observer agreement in the classification of distal radius fractures and development of Computerized Adaptive Test
 
 
 Fabiano Caumo, MD  
@@ -58,18 +58,22 @@ For the purposes of our paper, we define a situated schema as the collection of 
 
 First, the AO classification was presented to the hand surgery expert in an electronic format combining text and graphics for each classification category. Second, we asked the surgeon to "think aloud" about what they thought when finding a case in their daily practice. After an initial description, we specifically asked the expert to discuss any diagnostic, biomechanical or related therapeutic decision if it had not yet been previously mentioned. We also encouraged the expert to provide any narratives that might occur to him while thinking aloud about each classification category. The entire process was recorded in a video.
 
-Second, the video was analyzed and a graph constituted by nodes and edges was built using [Graphviz](). Each node represented either a concept or a situation, while edges connected relationships among diagnostic, biomechanical and therapeutic nodes.
+Second, the video was analyzed and a graph constituted by nodes and edges was built using [Graphviz](http://www.graphviz.org/). Each node represented either a concept or a situation, while edges connected relationships among diagnostic, biomechanical and therapeutic nodes.
 
 
 
 ### Study logistics and procedures
 
 #### Baseline evaluation
-Inicialmente, cada residente independentemente classificou as 20 imagens de acordo com a Classificação AO. No dia do teste, cada residente recebeu o arquivo das imagens no seu notebook e assim que eles finalizavam a classificação de todas as imagens, esse arquivo foi apagado. As respostas eram anotadas em folhas impressas com a sequência das imagens. E em seguida as respostas foram transferidas a uma planilha do Excel. Os residentes podiam consultar na internet o sistema de classificação AO. Porém, não podiam conversar entre eles. Os autores do estudo não participaram como observadores.
+At baseline, all participants independently classified all 20 images according to the AO classification. All participants simultaneously gathered in a single room, being instructed not to look at each other's responses or discuss any cases. Each resident received a directory with all images to be classified. All responses were provided in paper sheets, which were subsequently transcribed to a database. Residents were allowed to check the Web for the classification. Study authors did not participate as study subjects. The directory with all images was deleted at the end of the sesssion in order to decrease the odds of recall bias in subsequent evaluations.
+
+
 
 #### Pre-intervention, thirty-day evaluation
 
-Após 30 dias, cada residente recebeu um novo arquivo com as 20 imagens em uma ordem alterada. As respostas eram anotadas em folhas impressas e em seguida as respostas transferidas a planilha do Excel. Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores. 
+After 30 days, each study participant received a new directory with the same 20 images, but in a different order. All other procedures were executed exactly as described for the baseline session.
+
+Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores. 
 
 
 
@@ -97,12 +101,19 @@ All data were extracted directly from [MySQL](http://www.mysql.com/) and [MongoD
 
 <!-- add analysis strategy -->
 
+
+### Computerized Adaptive Test
+
+Based on the values obtained for the interobserver agreement for each individual fracture, we developed a free, publicly available online Computerized Adaptive Test. In this system, learners will initially be asked to rate an image with average observer agreement. Depending on their response agreeing or not with the majority of responders, they are taken to, respectively, a subsequent image with a lower or greater degree of interobserver ("harder" or "easier" images). 
+
 ## Results
+
+
 
 inter-observer reliability
 intra-observer reliability
 degree of improvement in inter-observer reliability after training
-
+CAT
 
 ## Results
 
@@ -118,3 +129,53 @@ http://goo.gl/17QP
 
 ## References
 
+
+
+
+---
+
+
+# mysql commands
+
+## below to both create root pwd as well as login as root
+mysql --user=root --password=
+CREATE USER 'rpietro'@'localhost' IDENTIFIED BY '';
+
+CREATE DATABASE radius;
+SHOW DATABASES;
+-- DROP DATABASE radius;
+
+mysql -u root -p  radius < staging.sql
+
+
+SELECT VERSION();
+HELP;
+HELP contents;
+quit
+
+
+USE radius;
+SELECT DATABASE();
+SHOW TABLES;
+SELECT * FROM radius.courseware_studentmodule INTO OUTFILE '/Users/rpietro/Desktop/ana.csv';
+
+
+
+# mongodb commands
+
+mongorestore edxapp
+
+show databases
+use edxapp
+db
+show collections
+
+/*
+fs.chunks
+fs.files
+modulestore
+modulestore.location_map
+system.indexes
+*/
+
+db..findOne()
