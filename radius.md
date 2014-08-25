@@ -75,11 +75,12 @@ After 30 days, each study participant received a new directory with the same 20 
 not sure we are going to describe this as it will get confusing
 
 After the classification was finalized, Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores.  -->
+<!-- Concordo. -->
 
 
 
 #### Intervention
-The educational intervention was constituted by weekly sessions where participants completed 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. Após ter respondido cada exercício, o residente era apresentado à resposta correta, juntamente com uma explicação justificando tal resposta. Os exercícios eram organizados no Edx em “blocos” de 15 perguntas cada, ou seja, foram criados 4 blocos correspondentes as quatro semanas de intervenção. Os blocos de perguntas foram programados para serem “realised” semanalmente, isto é, os residentes tinham acesso somente a um bloco de perguntas por semana. The full spectrum described by the AO classification was covered based on cognitive schema from our expert hand surgeon (HA) as described in the previous session - Situated schemata extraction using Cognitive Task Analysis.
+The educational intervention was constituted by weekly sessions where participants completed 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. Os residentes, após terem respondido cada exercício, eram apresentados à resposta correta, juntamente com uma explicação justificando tal resposta. Os exercícios estavam organizados, na Plataforma online Edx, em “blocos” de 15 perguntas cada, ou seja, foram criados 4 blocos correspondentes as quatro semanas de intervenção. Os blocos de perguntas foram programados para serem “realised” semanalmente, isto é, os residentes tinham acesso somente a um bloco de perguntas por semana. The full spectrum described by the AO classification was covered based on cognitive schema from our expert hand surgeon (HA) as described in the previous session - Situated schemata extraction using Cognitive Task Analysis.
 
 <--!—Ricardo, please check it out. -->
 
