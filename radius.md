@@ -79,10 +79,9 @@ After the classification was finalized, Após finalizada a classificação das 2
 
 
 #### Intervention
+The educational intervention was constituted by weekly sessions where participants completed 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. Após ter respondido cada exercício, o residente era apresentado à resposta correta, juntamente com uma explicação justificando tal resposta. Os exercícios eram organizados no Edx em “blocos” de 15 perguntas cada, ou seja, foram criados 4 blocos correspondentes as quatro semanas de intervenção. Os blocos de perguntas foram programados para serem “realised” semanalmente, isto é, os residentes tinham acesso somente a um bloco de perguntas por semana. The full spectrum described by the AO classification was covered based on cognitive schema from our expert hand surgeon (HA) as described in the previous session - Situated schemata extraction using Cognitive Task Analysis.
 
-The educational intervention was constituted by weekly sessions where participants completeted 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. The full spectrum described by the AO classification was covered.  This intervention lasted 4 weeks. 
-
-<!-- Ana, here we need more detail about the intervention in terms of how it was organized on edx, and how exactly it was derived from the cognitive schema. would be good to have at least one figure -->
+<--!—Ricardo, please check it out. -->
 
 
 
