@@ -63,7 +63,7 @@ Second, the video was analyzed and a graph constituted by nodes and edges was bu
 ### Study logistics and procedures
 
 #### Baseline evaluation
-At baseline, all participants independently classified all 20 images according to the AO classification. All participants simultaneously gathered in a single room, being instructed not to look at each other's responses or discuss any cases. Each resident received a directory with all images to be classified. All responses were provided in paper sheets, which were subsequently transcribed to a database. Residents were allowed to check the Web for the classification. Study authors did not participate as study subjects. The directory with all images was deleted at the end of the sesssion in order to decrease the odds of recall bias in subsequent evaluations.
+At baseline, all participants independently classified all 20 images according to the AO classification. All participants simultaneously gathered in a single room, being instructed not to look at each other's responses or discuss any cases. Each resident received a directory with all images to be classified. All responses were provided in paper sheets, which were subsequently transcribed to a database. Residents were allowed to check the Web for the classification.There was no time limit for making decisions. Study authors did not participate as study subjects. The directory with all images was deleted at the end of the sesssion in order to decrease the odds of recall bias in subsequent evaluations.
 
 
 
