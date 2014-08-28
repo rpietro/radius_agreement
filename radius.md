@@ -75,6 +75,7 @@ After 30 days, each study participant received a new directory with the same 20 
 not sure we are going to describe this as it will get confusing
 
 After the classification was finalized, Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores.  -->
+
 <!-- Concordo. -->
 
 
