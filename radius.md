@@ -66,7 +66,7 @@ Second, the video was analyzed and a graph constituted by nodes and edges was bu
 ### Study logistics and procedures
 
 #### Baseline evaluation
-At baseline, all participants independently classified all 20 images according to the AO classification. All participants simultaneously gathered in a single room, being instructed not to look at each other's responses or discuss any cases. Each resident received a directory with all images to be classified. All responses were provided in paper sheets, which were subsequently transcribed to a database. Residents were allowed to check the Web for the classification. Study authors did not participate as study subjects. The directory with all images was deleted at the end of the sesssion in order to decrease the odds of recall bias in subsequent evaluations.
+At baseline, all participants independently classified all 20 images according to the AO classification. All participants simultaneously gathered in a single room, being instructed not to look at each other's responses or discuss any cases. Each resident received a directory with all images to be classified. All responses were provided in paper sheets, which were subsequently transcribed to a database. Residents were allowed to check the Web for the classification.There was no time limit for making decisions. Study authors did not participate as study subjects. The directory with all images was deleted at the end of the sesssion in order to decrease the odds of recall bias in subsequent evaluations.
 
 
 
@@ -79,13 +79,14 @@ not sure we are going to describe this as it will get confusing
 
 After the classification was finalized, Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores.  -->
 
+<!-- Concordo. -->
+
 
 
 #### Intervention
+The educational intervention was constituted by weekly sessions where participants completed 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. Os residentes, após terem respondido cada exercício, eram apresentados à resposta correta, juntamente com uma explicação justificando tal resposta. Os exercícios estavam organizados, na Plataforma online Edx, em “blocos” de 15 perguntas cada, ou seja, foram criados 4 blocos correspondentes as quatro semanas de intervenção. Os blocos de perguntas foram programados para serem “realised” semanalmente, isto é, os residentes tinham acesso somente a um bloco de perguntas por semana. The full spectrum described by the AO classification was covered based on cognitive schema from our expert hand surgeon (HA) as described in the previous session - Situated schemata extraction using Cognitive Task Analysis.
 
-The educational intervention was constituted by weekly sessions where participants completeted 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. The full spectrum described by the AO classification was covered.  This intervention lasted 4 weeks. 
-
-<!-- Ana, here we need more detail about the intervention in terms of how it was organized on edx, and how exactly it was derived from the cognitive schema. would be good to have at least one figure -->
+<--!—Ricardo, please check it out. -->
 
 
 
@@ -133,6 +134,51 @@ Based on the values obtained for the interobserver agreement for each individual
 
 
 ## Discussion
+
+
+@illarramendi1998evaluation
+
+Interobserver agreement: average kappa coefficient was 0.37  which corresponds to a fair reproducibility.
+Experienced observers achieved an average kappa coefficient of 0.31 (fair reproducibility). The non-specialists obtained an average kappa coefficient of 0.40 (fair reproducibility).
+Intra: the average kappa coefficient was 0.57, representing moderate reproducibility).
+For experienced observers, the kappa coefficient was 0.50 (moderate reproducibility). The non-specialists obtained the kappa coefficient of 0.63 (good reproducibility). 
+This can be attributed to several factors: firstly, the classification is complex and differences between subgroups can sometimes be subtle; secondly, there are no strict guidelines for assessment of the extent of metaphyseal and articular comminution, and thirdly, the determination of the limits of the distal radioulnar joint.
+
+@andersen1996classification
+
+Inter e Intra: fair agreement
+Inter: Reducing it to nine groups or three general types (Table 3) had the effect of increasing the interobserver agreement (0.297 and 0.636, respectively).
+Intra: Reducing the number of groups to nine (Table 6) resulted in modest increases in the kappa values (range, 0.341-0.449). Further reduction to the three main types yielded kappa values of 0,583-0.701.
+
+@belloti2008distal
+
+We used groups and subgroups (nine types) and the mean intraobserver value was unsatisfactory (0.49). There was a significant difference between the values for the more experienced observers (OHS  = 0.64 and OT  = 0.64) and those for the less experienced ones (R3  = 0.4835 and UG6  = 0.3751). This suggests that the expertise level had an influence. 
+The interobserver agreement was also unsatisfactory, but presented progressive increase from T1 (0.27) to T3 (0.31). 
+Variation in evaluators’ expertise may have influenced evaluations carried out on intraobserver and interobserver agreement. Studies have shown that less experienced observers attain lower rates of intraobserver agreement than do expert physicians.12,16 However, in a comparison of one group in which the observers were more experienced in rating assessments with another group whose expertise was lower, no significant difference in interobserver agreement was found.12
+
+@kreder1996consistency
+
+Agreement was best for AO type and decreased progressively for AO group and subgroup. For AO type, interobserver agreement improved with increasing experience.
+Attending surgeons achieved the highest interobserver agreement scores for the AO classification categories with an SAV value of 0.68 (substantial agreement) for the AO type; 0.48 (moderate agreement) for the nine possible AO groups; and 0.33 (fair agreement) for the 27 potential AO subgroups.
+
+@kucuk2013reliability
+
+Reliability kappa values for for all classification systems in both resident and surgeon groups after
+1st and 2nd evaluations. AO 0.29 (1st evaluation – resident) 0.31 (2nd evaluation – resident) 0.30 (1st evaluation – surgeon) 0.34 (2nd evaluation – surgeon)
+
+@kural2010evaluation
+
+Intraobserver Kappa Values after First and Second Evaluations of Observers= kappa 0.309
+Interobserver Kappa Values of First And Second Readings for Each Classification= kappa 0.0961
+
+@van2010agreement
+
+Interobserver agreement for Type level was moderate (ktype=0.60), then decreased when the classification was expanded to Group and Subgroup grading. Interobserver agreement for Group level was moderate (kgroup=0.41) and Subgroup was fair (ksubgroup=0.33).
+
+@ploegmakers2007four
+
+The weighted kappa values for intraobserver reproducibility were 0.52 for the AO/ASIF.
+
 
 To the best of our knowledge, this is the first study creating a computerized adaptive test for the AO radius fracture classification. We found that 
 
