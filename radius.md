@@ -180,6 +180,17 @@ Interobserver agreement for Type level was moderate (ktype=0.60), then decreased
 The weighted kappa values for intraobserver reproducibility were 0.52 for the AO/ASIF.
 
 
+@arealis2014does
+
+Intraobserver agreement between X-ray and CT scan for the classification of distal radius fractures kappa=0.65
+Inter-observer agreement when X-ray is used for the classification of distal radius fractures. – k= 0.299
+Inter-observer agreement when CT scan is used for the classification of distal radius fractures. – k= 0.299
+
+
+
+
+
+
 To the best of our knowledge, this is the first study creating a computerized adaptive test for the AO radius fracture classification. We found that 
 
 <!-- inter-observer reliability
