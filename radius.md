@@ -1,9 +1,12 @@
 # Quasi-experimental, reproducible intervention to improve observer agreement in the classification of distal radius fractures and development of Computerized Adaptive Test
 
+<!-- https://mail.google.com/mail/u/0/?tab=wm#inbox/1480da4c64832eb1 -->
+
 
 Fabiano Caumo, MD  
 Pedro Gaspar Soares Justo, MD   
 Henrique Ayzemberg, MD  
+Bruno Melo
 Ana Paula Bonilauri Ferreira, DDS, PhD  
 Ricardo Pietrobon, MD, PhD  
 
@@ -114,7 +117,7 @@ Based on the values obtained for the interobserver agreement for each individual
 
 ## Results
 
-
+<!-- http://goo.gl/b15W3W -->
 
 ### Inter-observer reliability
 
@@ -179,7 +182,7 @@ quit
 USE radius;
 SELECT DATABASE();
 SHOW TABLES;
-SELECT * FROM radius.courseware_studentmodule INTO OUTFILE '/Users/rpietro/Desktop/ana.csv';
+SELECT * FROM radius.courseware_studentmodule WHERE module_type = 'problem'  INTO OUTFILE '/Users/rpietro/Desktop/ana2.csv';
 
 
 
@@ -201,3 +204,64 @@ system.indexes
 */
 
 db..findOne()
+
+
+---
+
+
+# update.packages()
+
+library(irr)
+library(Agreement)
+library(vcd)
+require(lpSolve)
+require(kappasize)
+
+# sample size
+
+# http://www.ncbi.nlm.nih.gov/pubmed/22560852 - http://cran.r-project.org/web/packages/kappaSize/kappaSize.pdf
+# https://etd.library.emory.edu/view/record/pid/emory:7t409
+
+
+
+# descriptive
+
+setwd("/Users/rpietro/articles/radius_agreement")
+
+radius_inter_day1  <- read.csv("radius_inter_day1d.csv")
+radius_inter_day1
+agree(radius_inter_day1)     # Simple percentage agreement
+agree(radius_inter_day1, 1.2)  # Extended percentage agreement
+
+radius_inter_day30  <- read.csv("radius_inter_day30.csv")
+radius_inter_day30
+agree(radius_inter_day30)     # Simple percentage agreement
+agree(radius_inter_day30, 1.2)  # Extended percentage agreement
+
+
+# Intra-observer
+
+SexualFun
+(K <- Kappa(SexualFun))
+confint(K)
+agree <- agreementplot(SexualFun, main="Is sex fun?")
+# We have thus produced an agreement plot, also called a Bangdiwala's Observer Agreement Chart. Note that our agreement plot is a representation of a k x k confusion matrix. The observed and expected diagonal elements are represented by superposed black and white rectangles, respectively. The extent to which the rectangles are above or below the line indicates the extent of any disagreement. (above and/or below indicates direction of the disagreement). The function also computes two statistic measuring the strength of agreement (relation of respective area sums). The first statistic is accessed using the term Bandiwala. This statistic is the unweighted agreement strength statistic. The second statistic makes an adjustment for ordered ratings, and is accessed using the code Bangdiwala_Weighted. Both statistics are measured on a scale from 0 to 1, where 1 indicates perfect agreement and 0 indicates perfect disagreement.
+unlist(agree)
+
+
+# Example from Bishop, Fienberg & Holland (1978), Table 8.2-1
+data(vision)
+rater.bias(vision)
+
+
+# Interobserver
+
+data(diagnoses)
+df <- diagnoses[,1:3]
+kappam.fleiss(df)
+
+
+# The unified approach calculates the agreement statistics for both continuous and categorical data to cover multiple readings from each of the n subjects.
+data(DCLHb);
+ua <- unified.agreement(dataset=DCLHb, var=c("HEMOCUE1","HEMOCUE2","SIGMA1","SIGMA2"), k=2, m=2, CCC_a_intra=0.9943, CCC_a_inter=0.9775, CCC_a_total=0.9775, CP_a=0.9, tran=1, TDI_a_intra=75, TDI_a_inter=150, TDI_a_total=150, error="const", dec=1, alpha=0.05);
+summary(ua);
