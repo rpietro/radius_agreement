@@ -132,6 +132,51 @@ Based on the values obtained for the interobserver agreement for each individual
 
 ## Discussion
 
+
+@illarramendi1998evaluation
+
+Interobserver agreement: average kappa coefficient was 0.37  which corresponds to a fair reproducibility.
+Experienced observers achieved an average kappa coefficient of 0.31 (fair reproducibility). The non-specialists obtained an average kappa coefficient of 0.40 (fair reproducibility).
+Intra: the average kappa coefficient was 0.57, representing moderate reproducibility).
+For experienced observers, the kappa coefficient was 0.50 (moderate reproducibility). The non-specialists obtained the kappa coefficient of 0.63 (good reproducibility). 
+This can be attributed to several factors: firstly, the classification is complex and differences between subgroups can sometimes be subtle; secondly, there are no strict guidelines for assessment of the extent of metaphyseal and articular comminution, and thirdly, the determination of the limits of the distal radioulnar joint.
+
+@andersen1996classification
+
+Inter e Intra: fair agreement
+Inter: Reducing it to nine groups or three general types (Table 3) had the effect of increasing the interobserver agreement (0.297 and 0.636, respectively).
+Intra: Reducing the number of groups to nine (Table 6) resulted in modest increases in the kappa values (range, 0.341-0.449). Further reduction to the three main types yielded kappa values of 0,583-0.701.
+
+@belloti2008distal
+
+We used groups and subgroups (nine types) and the mean intraobserver value was unsatisfactory (0.49). There was a significant difference between the values for the more experienced observers (OHS  = 0.64 and OT  = 0.64) and those for the less experienced ones (R3  = 0.4835 and UG6  = 0.3751). This suggests that the expertise level had an influence. 
+The interobserver agreement was also unsatisfactory, but presented progressive increase from T1 (0.27) to T3 (0.31). 
+Variation in evaluators’ expertise may have influenced evaluations carried out on intraobserver and interobserver agreement. Studies have shown that less experienced observers attain lower rates of intraobserver agreement than do expert physicians.12,16 However, in a comparison of one group in which the observers were more experienced in rating assessments with another group whose expertise was lower, no significant difference in interobserver agreement was found.12
+
+@kreder1996consistency
+
+Agreement was best for AO type and decreased progressively for AO group and subgroup. For AO type, interobserver agreement improved with increasing experience.
+Attending surgeons achieved the highest interobserver agreement scores for the AO classification categories with an SAV value of 0.68 (substantial agreement) for the AO type; 0.48 (moderate agreement) for the nine possible AO groups; and 0.33 (fair agreement) for the 27 potential AO subgroups.
+
+@kucuk2013reliability
+
+Reliability kappa values for for all classification systems in both resident and surgeon groups after
+1st and 2nd evaluations. AO 0.29 (1st evaluation – resident) 0.31 (2nd evaluation – resident) 0.30 (1st evaluation – surgeon) 0.34 (2nd evaluation – surgeon)
+
+@kural2010evaluation
+
+Intraobserver Kappa Values after First and Second Evaluations of Observers= kappa 0.309
+Interobserver Kappa Values of First And Second Readings for Each Classification= kappa 0.0961
+
+@van2010agreement
+
+Interobserver agreement for Type level was moderate (ktype=0.60), then decreased when the classification was expanded to Group and Subgroup grading. Interobserver agreement for Group level was moderate (kgroup=0.41) and Subgroup was fair (ksubgroup=0.33).
+
+@ploegmakers2007four
+
+The weighted kappa values for intraobserver reproducibility were 0.52 for the AO/ASIF.
+
+
 To the best of our knowledge, this is the first study creating a computerized adaptive test for the AO radius fracture classification. We found that 
 
 <!-- inter-observer reliability
