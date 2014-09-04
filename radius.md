@@ -261,7 +261,8 @@ library(irr)
 library(Agreement)
 library(vcd)
 require(lpSolve)
-require(kappasize)
+require(kappaSize)
+require(boot)
 
 # sample size
 
@@ -274,40 +275,79 @@ require(kappasize)
 
 setwd("/Users/rpietro/articles/radius_agreement")
 
-radius_inter_day1  <- read.csv("radius_inter_day1d.csv")
+# all analyses only conducted with observers who had completed all phases of the analysis
+radius_inter_all  <- read.csv("radius_inter_all.csv")
+radius_inter_all
+agree(radius_inter_all)     # Simple percentage agreement
+agree(radius_inter_all, 12)  # Extended percentage agreement
+
+
+radius_inter_day1  <- read.csv("radius_inter_day1.csv")
 radius_inter_day1
 agree(radius_inter_day1)     # Simple percentage agreement
-agree(radius_inter_day1, 1.2)  # Extended percentage agreement
+agree(radius_inter_day1, 12)  # Extended percentage agreement
 
 radius_inter_day30  <- read.csv("radius_inter_day30.csv")
 radius_inter_day30
 agree(radius_inter_day30)     # Simple percentage agreement
-agree(radius_inter_day30, 1.2)  # Extended percentage agreement
+agree(radius_inter_day30, 12)  # Extended percentage agreement
 
+radius_inter_day60  <- read.csv("radius_inter_day60.csv")
+radius_inter_day60
+agree(radius_inter_day60)     # Simple percentage agreement
+agree(radius_inter_day60, 12)  # Extended percentage agreement
 
 # Intra-observer
 
-SexualFun
-(K <- Kappa(SexualFun))
-confint(K)
-agree <- agreementplot(SexualFun, main="Is sex fun?")
+radius_intra130  <- read.csv("radius_intra130.csv")
+radius_intra130
+agree(radius_intra130)     # Simple percentage agreement
+agree(radius_intra130, 12)  # Extended percentage agreement
+
+radius_intra3060  <- read.csv("radius_intra3060.csv")
+radius_intra3060
+agree(radius_intra3060)     # Simple percentage agreement
+agree(radius_intra3060, 12)  # Extended percentage agreement
+# SexualFun
+# (K <- Kappa(SexualFun))
+# confint(K)
+# agree <- agreementplot(SexualFun, main="Is sex fun?")
 # We have thus produced an agreement plot, also called a Bangdiwala's Observer Agreement Chart. Note that our agreement plot is a representation of a k x k confusion matrix. The observed and expected diagonal elements are represented by superposed black and white rectangles, respectively. The extent to which the rectangles are above or below the line indicates the extent of any disagreement. (above and/or below indicates direction of the disagreement). The function also computes two statistic measuring the strength of agreement (relation of respective area sums). The first statistic is accessed using the term Bandiwala. This statistic is the unweighted agreement strength statistic. The second statistic makes an adjustment for ordered ratings, and is accessed using the code Bangdiwala_Weighted. Both statistics are measured on a scale from 0 to 1, where 1 indicates perfect agreement and 0 indicates perfect disagreement.
-unlist(agree)
-
-
-# Example from Bishop, Fienberg & Holland (1978), Table 8.2-1
-data(vision)
-rater.bias(vision)
+# unlist(agree)
 
 
 # Interobserver
 
-data(diagnoses)
-df <- diagnoses[,1:3]
-kappam.fleiss(df)
+# data(diagnoses)
+# head(diagnoses)
+# df <- diagnoses[,1:3]
+# head(df)
+kappam.fleiss(radius_inter_day1)
+kappam.fleiss(radius_inter_day30)
+kappam.fleiss(radius_inter_day60)
+kappam.fleiss(radius_intra130)
+kappam.fleiss(radius_intra3060)
 
 
 # The unified approach calculates the agreement statistics for both continuous and categorical data to cover multiple readings from each of the n subjects.
-data(DCLHb);
-ua <- unified.agreement(dataset=DCLHb, var=c("HEMOCUE1","HEMOCUE2","SIGMA1","SIGMA2"), k=2, m=2, CCC_a_intra=0.9943, CCC_a_inter=0.9775, CCC_a_total=0.9775, CP_a=0.9, tran=1, TDI_a_intra=75, TDI_a_inter=150, TDI_a_total=150, error="const", dec=1, alpha=0.05);
-summary(ua);
+# data(DCLHb);
+# head(DCLHb)
+# ua <- unified.agreement(dataset=DCLHb, var=c("HEMOCUE1","HEMOCUE2","SIGMA1","SIGMA2"), k=2, m=2, CCC_a_intra=0.9943, CCC_a_inter=0.9775, CCC_a_total=0.9775, CP_a=0.9, tran=1, TDI_a_intra=75, TDI_a_inter=150, TDI_a_total=150, error="const", dec=1, alpha=0.05);
+# summary(ua);
+
+
+#to obtain a 95%confidence interval of the four classification systems, using the boot package
+ckappa.boot <- function(data,x) {ckappa(data[x,])[[2]]}
+icsp <- boot(olecranon_speccoltvsnonspeccolt,ckappa.boot,1000)
+quantile(icsp$t,c(0.025,0.975)) # two-sided bootstrapped confidence interval of kappa
+boot.ci(icsp,type="bca") # adjusted bootstrap percentile (BCa) confidence interval (better)
+icnsp <- boot(olecranon_specschatvsnonspecschat,ckappa.boot,1000)
+quantile(icnsp$t,c(0.025,0.975)) # two-sided bootstrapped confidence interval of kappa
+boot.ci(icnsp,type="bca") # adjusted bootstrap percentile (BCa) confidence interval (better)
+icsp <- boot(olecranon_specmayvsnonspecmay,ckappa.boot,1000)
+quantile(icsp$t,c(0.025,0.975)) # two-sided bootstrapped confidence interval of kappa
+boot.ci(icsp,type="bca") # adjusted bootstrap percentile (BCa) confidence interval (better)
+icnsp <- boot(olecranon_specaovsnonspecao,ckappa.boot,1000)
+quantile(icnsp$t,c(0.025,0.975)) # two-sided bootstrapped confidence interval of kappa
+boot.ci(icnsp,type="bca") # adjusted bootstrap percentile (BCa) confidence interval (better)
+
