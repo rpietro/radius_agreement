@@ -7,6 +7,7 @@ Fabiano Caumo, MD
 Pedro Gaspar Soares Justo, MD   
 Henrique Ayzemberg, MD  
 Bruno Melo
+Joao Ricardo Vissoci
 Ana Paula Bonilauri Ferreira, DDS, PhD  
 Ricardo Pietrobon, MD, PhD  
 
@@ -107,33 +108,42 @@ Intra-observer agreement was measured by comparing ratings by the same participa
 
 All data were extracted directly from [MySQL](http://www.mysql.com/) and [MongoDB](http://www.mongodb.org/) databases connected to the [Open edX](http://code.edx.org/) platforms. Data sets were then merged, also undergoing an exploratory graphical analysis to verify distributions, percentages, means and frequencies/percentages as well as rates of missing data. 
 
-<!-- add analysis strategy -->
+Apenas observadores que haviam completado um determinado grupo de observações (dia 1, dia 30 ou dia 60) foram considerados na análise. Porcentagens de concordância assim como valores de Kappa Fleiss foram reportados. Kappa Fleiss é uma medida de concordância para variáveis categóricas que leva em consideração a possível concordância ao acaso. @fleiss1973equivalence  Por fim, a comparação entre os valores de Kappa pré e pós intervenção (dias 30 e 60, respectivamente) foram estimadas através da computação de erros padrão e intervalos de confiança (95%) utilizando bootstrap. <!-- check with joao for reference -->
 
 
-### Computerized Adaptive Test
+<!-- @article{fleiss1973equivalence,
+  title={The equivalence of weighted kappa and the intraclass correlation coefficient as measures of reliability.},
+  author={Fleiss, Joseph L and Cohen, Jacob},
+  journal={Educational and psychological measurement},
+  year={1973},
+  publisher={Sage Publications}
+} -->
+
+
+
+<!-- ### Computerized Adaptive Test -->
 
 <!-- this section won't go into the SBOT -->
 
-Based on the values obtained for the interobserver agreement for each individual fracture, we developed a free, publicly available online Computerized Adaptive Test. In this system, learners will initially be asked to rate an image with average observer agreement. Depending on their response agreeing or not with the majority of responders, they are taken to, respectively, a subsequent image with a lower or greater degree of interobserver ("harder" or "easier" images). 
+<!-- Based on the values obtained for the interobserver agreement for each individual fracture, we developed a free, publicly available online Computerized Adaptive Test. In this system, learners will initially be asked to rate an image with average observer agreement. Depending on their response agreeing or not with the majority of responders, they are taken to, respectively, a subsequent image with a lower or greater degree of interobserver ("harder" or "easier" images).  -->
 
 ## Results
 
 <!-- http://goo.gl/b15W3W -->
 
-### Inter-observer reliability
 
 
-### Intra-observer reliability
+### Resultados descritivos
+
+Quando todos os 11 observadores completando as 3 avaliações foram considerados, não houve nenhuma instância em que houvesse concordância completa entre todos, mesmo quando houve uma maior tolerancia em relação a subclassificações. No entanto, a porcentagem de concordância entre os 14 observadores completando a primeira avaliação com uma tolerância em relação à subclassificação, houve uma concordância em 70% das avaliações. Esta concordância caiu para 50% e 45% nas avaliações dos dias 30 (14 observadores) e 60 (15 observadores, pós-intervenção), respectivamente. 
+
+Em relação à comparação das observações do mesmo observador, comparando os dias 1 e 30, a porcentagem de concordância foi de 11.2% sem tolerância e 78.6% com tolerância. 
 
 
-### Degree of improvement in inter-observer reliability after training
+### Valores de kappa
 
+Valores de Kappa Fleiss para a concordância entre observadores amostra do dia 1 foram de 0.225 (p < 0.001), 0.212 (p < 0.001) para o dia 30 e 0.214 (p < 0.001) para o dia 60. Não houve uma diferença estatisticamente significativa entre as concordâncias do dia 30 (pré-intervenção) e dia 60 (pós-intervenção). A concordância entre o mesmo observador nos dias 1 e 30 demonstrou um valor de Kappa Fleiss de -0.004.
 
-### Computerized Adaptive Test
-
-
-
-## Discussion
 
 
 ## Discussão
@@ -311,35 +321,35 @@ setwd("/Users/rpietro/articles/radius_agreement")
 
 # all analyses only conducted with observers who had completed all phases of the analysis
 radius_inter_all  <- read.csv("radius_inter_all.csv")
-radius_inter_all
+# radius_inter_all
 agree(radius_inter_all)     # Simple percentage agreement
 agree(radius_inter_all, 12)  # Extended percentage agreement
 
 
 radius_inter_day1  <- read.csv("radius_inter_day1.csv")
-radius_inter_day1
+# radius_inter_day1
 agree(radius_inter_day1)     # Simple percentage agreement
 agree(radius_inter_day1, 12)  # Extended percentage agreement
 
 radius_inter_day30  <- read.csv("radius_inter_day30.csv")
-radius_inter_day30
+# radius_inter_day30
 agree(radius_inter_day30)     # Simple percentage agreement
 agree(radius_inter_day30, 12)  # Extended percentage agreement
 
 radius_inter_day60  <- read.csv("radius_inter_day60.csv")
-radius_inter_day60
+# radius_inter_day60
 agree(radius_inter_day60)     # Simple percentage agreement
 agree(radius_inter_day60, 12)  # Extended percentage agreement
 
 # Intra-observer
 
 radius_intra130  <- read.csv("radius_intra130.csv")
-radius_intra130
+# radius_intra130
 agree(radius_intra130)     # Simple percentage agreement
 agree(radius_intra130, 12)  # Extended percentage agreement
 
 radius_intra3060  <- read.csv("radius_intra3060.csv")
-radius_intra3060
+# radius_intra3060
 agree(radius_intra3060)     # Simple percentage agreement
 agree(radius_intra3060, 12)  # Extended percentage agreement
 # SexualFun
