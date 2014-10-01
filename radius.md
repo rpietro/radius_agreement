@@ -87,7 +87,6 @@ After the classification was finalized, Após finalizada a classificação das 2
 #### Intervention
 The educational intervention was constituted by weekly sessions where participants completed 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. Os residentes, após terem respondido cada exercício, eram apresentados à resposta correta, juntamente com uma explicação justificando tal resposta. Os exercícios estavam organizados, na Plataforma online Edx, em “blocos” de 15 perguntas cada, ou seja, foram criados 4 blocos correspondentes as quatro semanas de intervenção. Os blocos de perguntas foram programados para serem “realised” semanalmente, isto é, os residentes tinham acesso somente a um bloco de perguntas por semana. The full spectrum described by the AO classification was covered based on cognitive schema from our expert hand surgeon (HA) as described in the previous session - Situated schemata extraction using Cognitive Task Analysis.
 
-<--!—Ricardo, please check it out. -->
 
 
 
@@ -165,7 +164,7 @@ Em conclusão, nós não recomendamos que intervenções educacionais curtas e d
 
 
 
-@illarramendi1998evaluation
+<!-- @illarramendi1998evaluation
 
 Interobserver agreement: average kappa coefficient was 0.37  which corresponds to a fair reproducibility.
 Experienced observers achieved an average kappa coefficient of 0.31 (fair reproducibility). The non-specialists obtained an average kappa coefficient of 0.40 (fair reproducibility).
@@ -227,11 +226,10 @@ poor interobserver reliability in both cases. After reducing the categories to f
 
 To the best of our knowledge, this is the first study creating a computerized adaptive test for the AO radius fracture classification. We found that 
 
-<!-- inter-observer reliability
+ inter-observer reliability
 intra-observer reliability
 degree of improvement in inter-observer reliability after training
 CAT
- -->
 
 Despite being the first to report a computerized adaptive test for the AO radius fracture classification, our study has limitations. First, our analysis was restricted to a group of residents, and different groups might present a variation in observer agreement serving as the basis for the Computerized Adaptive Test. Second, while selecting images for the observer agreement study, we chose to select a wide spectrum of fractures rather than representing the actual prevalence of these fractures in an average practice. 
 
@@ -248,7 +246,7 @@ http://goo.gl/17QP
 
 
 
----
+
 
 
 # mysql commands
@@ -297,7 +295,7 @@ system.indexes
 db..findOne()
 
 
----
+
 
 
 # update.packages()
@@ -396,3 +394,4 @@ icnsp <- boot(olecranon_specaovsnonspecao,ckappa.boot,1000)
 quantile(icnsp$t,c(0.025,0.975)) # two-sided bootstrapped confidence interval of kappa
 boot.ci(icnsp,type="bca") # adjusted bootstrap percentile (BCa) confidence interval (better)
 
+ -->
