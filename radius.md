@@ -75,14 +75,6 @@ At baseline, all participants independently classified all 20 images according t
 
 After 30 days, each study participant received a new directory with the same 20 images, but in a different order. All other procedures were executed exactly as described for the baseline session.
 
-<!-- 
-not sure we are going to describe this as it will get confusing
-
-After the classification was finalized, Após finalizada a classificação das 20 imagens, já em seguida eles realizaram 30 exercícios no Concerto. E imediatamente após a realização dos exercícios as 20 imagens foram reclassificadas, dando aos residentes a oportunidade de mudar sua classificação. Assim que finalizaram a reclassificação das imagens o arquivo foi deletado de seus computadores.  -->
-
-<!-- Concordo. -->
-
-
 
 #### Intervention
 The educational intervention was constituted by weekly sessions where participants completed 15 exercises related to the diagnosis, biomechanics and therapeutic planning of radius fractures. Os residentes, após terem respondido cada exercício, eram apresentados à resposta correta, juntamente com uma explicação justificando tal resposta. Os exercícios estavam organizados, na Plataforma online Edx, em “blocos” de 15 perguntas cada, ou seja, foram criados 4 blocos correspondentes as quatro semanas de intervenção. Os blocos de perguntas foram programados para serem “realised” semanalmente, isto é, os residentes tinham acesso somente a um bloco de perguntas por semana. The full spectrum described by the AO classification was covered based on cognitive schema from our expert hand surgeon (HA) as described in the previous session - Situated schemata extraction using Cognitive Task Analysis.
@@ -151,7 +143,6 @@ Valores de Kappa Fleiss para a concordância entre observadores amostra do dia 1
 Até onde sabemos, esse é o primeiro estudo avaliando uma intervenção na tentativa de melhorar o grau de concordância entre observadores para a classificação da AO para o terço distal do rádio. Nossos resultados mostraram uma concordância estável durante o estudo, não tendo sido alterada em decorrência da intervenção. Também encontramos que o grau de concordância é melhorado quando a classificação é simplificada através da retirada das subclassificações. 
 
 O baixo grau de concordância entre observadores nesse estudo está alinhado com a literatura sobre classificações de fraturas ortopédicas (@andersen1996classification; @belloti2008distal; @kural2010evaluation; @kucuk2013reliability). Essa baixa concordância se dá em grande parte pela complexidade das classificações, o que dá margem a interpretações diversas, especialmente por profissionais em treinamento e portanto com menos experiência (@kreder1996consistency; @arealis2014does). Apesar de que a intenção de se criar uma classificação que seja clinicamente detalhada é inicialmente interessante, a alta carga cognitiva exigida dos profissionais que a irão utilizar tende a fazer com que ela perca a sua praticidade. Esforços deveriam ser realizados portanto para a criação de escalas que sejam mais dinamicamente adaptadas a profissionais com diferentes graus de experiência na interpretação radiográfica. Por exemplo, profissionais que trabalhem em pronto socorros deveriam utilizar uma escala mais simplificada, enquanto sub-especialistas deveriam utilizar escalas mais detalhadas. O grau de detalhamento em cada uma destas subescalas seria definido através de estudos que identifiquem o grau de concordância obtido na prática clínica diária.
-
 
 Apesar da nossa intervenção ter sido baseada em mecanismos bem estabelecidos na literatura sobre esquemas cognitivos (@regehr1996issues; @ruiter2012achieve), não houve uma melhora da concordância como nós havíamos hipotetizado. Esquemas cognitivos situados hipotetizam que o cérebro raciocina não apenas através de informações armazenadas no próprio cérebro, mas utilizando fatores ambientais como tecnologias, contatos sociais, entre outros fatores (@van2010cognitive). Causas para a não melhora provavelmente se devem ao baixo tempo de exposição em relação à intervenção <!-- ref -->, e também ao fato de que esta exposição não ocorreu em um contexto clínico, mas sim em um ambiente educacional artificial. Resultados superiores talvez pudessem ter sido encontrados se a intervenção educacional pudesse ter ocorrido durante a prática clínica diária, especificamente no momento em que os participante estivessem atendendo pacientes com fraturas de radio distal. 
 
